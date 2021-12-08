@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
+*{  margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background-color: #1E1919;
+    font-family: 'Oswald', sans-serif;
+}
+
+/*centrar contenido*/
+.wrapper{
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+header{
+    background-color:#1E1919;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 10px;
+
+}
+
+header .logo{
+    color: #FFF;
+    font-size: 2em;
+    line-height: 100px;
+    float: left;
+}
+
+header nav{
+    float: right;
+    line-height: 100px;
+    
+}
+
+header nav a{
+    display: inline-block;
+    text-decoration: none;
+    color: #FFF;
+    padding: 10px ;
+    line-height: normal;
+    transition: all 0.3ms;
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;    
+}
+header nav a:hover{
+    background-color: #E98B10;
+    border-radius: 50px;
+    
+}   
+
+/*Formulario Contacto*/ 
+.form-Contact{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.form-Contact h2{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.form-Contact button{
+    background-color: #E98B10;
+    font-size: 20px;
+    padding: 3px;
+    border-radius: 15px;
+    width: 100px;
+
+}
+
+.form-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.Form-Container{
+    width: 60%;
+}

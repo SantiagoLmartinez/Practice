@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+body{
+    background-color: antiquewhite;
+    font-family: 'Oswald', sans-serif;
+}
+/*centrar contenido*/
+.wrapper{
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+header{
+    background-color:#1E1919;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 10px;
+
+}
+
+
+
+header .logo{
+    color: #FFF;
+    font-size: 2em;
+    line-height: 100px;
+    float: left;
+
+}
+
+header nav{
+    float: right;
+    line-height: 100px;
+    
+}
+
+header nav a{
+    display: inline-block;
+    text-decoration: none;
+    color: #FFF;
+    padding: 10px ;
+    line-height: normal;
+    transition: all 0.3ms;
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;    
+}
+header nav a:hover{
+    background-color: #E98B10;
+    border-radius: 50px;
+    
+}    
+/*CARD*/
+.card-container{
+    width: 100%;
+    display: flex;
+    max-width: 1000px;
+}
+
+.card{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    background-color: #FFF;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    cursor: default;
+    transition: all 400ms ease;
+}
+.card img{
+    width: 100%;
+}
+
+.card:hover{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%);
+        
+}
+
+.contenido-card{
+    padding: 15px;
+    text-align: center;
+    font-size: 14px;
+}
+.contenido-card h3{
+    margin-bottom: 10px;
+}
+.contenido-card a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px;
+    margin-top: 15px;
+    border-radius: 5px;
+    border: 1px solid  #1E1919;;
+    color:#1E1919;
+
+}
+.contenido-card a:hover{
+    background-color: #E98B10;
+        transition: all 400ms ease;
+
+}
+
+/*FOOTER*/
+footer{
+    bottom: 0;
+    position: absolute;
+    background-color: #1E1919;
+    color: #E98B10;
+    opacity: 0.5;
+    font-size: 14px;
+    width: 100%;
+    text-align: center;
+}
+
+.iconito{
+    text-decoration: none;
+    color: #FFF;
+}
